@@ -1,17 +1,19 @@
 name: Test
+
 on:
-    push:
+  push:
 
 jobs:
-    test:
-        runs-on: macos-latest
-         steps:
-            - name: Checkout code
-              uses: actions/checkout@v2
+  test:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-            - name: Set up Node.js
-              uses: action/setup-node@v2
-            with:
-                node-version: 20
-            - name: Run your script
-              uses: ./
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 20
+
+      - name: Run your script
+        uses: ./
