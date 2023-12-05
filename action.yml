@@ -1,0 +1,5 @@
+name: Abhimans Github Demo Action
+description: This action greets persons
+runs:
+  using: node20
+  main: src/index.js
