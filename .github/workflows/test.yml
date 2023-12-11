@@ -14,6 +14,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 20
+      - name: Install node module
+        run: npm ci
 
       - name: Run your script
         uses: ./

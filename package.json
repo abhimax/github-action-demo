@@ -1,0 +1,23 @@
+{
+  "name": "github-action-demo",
+  "version": "1.0.0",
+  "description": "This project to demonstrate how GitHub action works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhimax/github-action-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhimax/github-action-demo/issues"
+  },
+  "homepage": "https://github.com/abhimax/github-action-demo#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1"
+  }
+}
